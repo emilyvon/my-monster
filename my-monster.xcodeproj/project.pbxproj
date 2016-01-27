@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB3925D71C5832CD00F67709 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB3925D61C5832CD00F67709 /* Minecraft.ttf */; };
+		EB689B181C56EE4900BA8199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB689B171C56EE4900BA8199 /* AppDelegate.swift */; };
+		EB689B1A1C56EE4900BA8199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB689B191C56EE4900BA8199 /* ViewController.swift */; };
+		EB689B1D1C56EE4900BA8199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB689B1B1C56EE4900BA8199 /* Main.storyboard */; };
+		EB689B1F1C56EE4900BA8199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB689B1E1C56EE4900BA8199 /* Assets.xcassets */; };
+		EB689B221C56EE4900BA8199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB689B201C56EE4900BA8199 /* LaunchScreen.storyboard */; };
+		EB689B2A1C57055100BA8199 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB689B291C57055100BA8199 /* DragImg.swift */; };
+		EB689B541C57668F00BA8199 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB689B531C57668F00BA8199 /* MonsterImg.swift */; };
+		EB689B591C57A12600BA8199 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB689B551C57A12600BA8199 /* bite.wav */; };
+		EB689B5A1C57A12600BA8199 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB689B561C57A12600BA8199 /* death.wav */; };
+		EB689B5B1C57A12600BA8199 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB689B571C57A12600BA8199 /* heart.wav */; };
+		EB689B5C1C57A12600BA8199 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB689B581C57A12600BA8199 /* skull.wav */; };
+		EB689B5E1C57A12F00BA8199 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB689B5D1C57A12F00BA8199 /* cave-music.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB3925D61C5832CD00F67709 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		EB689B141C56EE4900BA8199 /* my-monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-monster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB689B171C56EE4900BA8199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB689B191C56EE4900BA8199 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB689B1C1C56EE4900BA8199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB689B1E1C56EE4900BA8199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB689B211C56EE4900BA8199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB689B231C56EE4900BA8199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB689B291C57055100BA8199 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DragImg.swift; path = ../DragImg.swift; sourceTree = "<group>"; };
+		EB689B531C57668F00BA8199 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
+		EB689B551C57A12600BA8199 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		EB689B561C57A12600BA8199 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		EB689B571C57A12600BA8199 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		EB689B581C57A12600BA8199 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
+		EB689B5D1C57A12F00BA8199 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB689B111C56EE4900BA8199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB689B0B1C56EE4900BA8199 = {
+			isa = PBXGroup;
+			children = (
+				EB689B161C56EE4900BA8199 /* my-monster */,
+				EB689B151C56EE4900BA8199 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB689B151C56EE4900BA8199 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB689B141C56EE4900BA8199 /* my-monster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB689B161C56EE4900BA8199 /* my-monster */ = {
+			isa = PBXGroup;
+			children = (
+				EB3925D61C5832CD00F67709 /* Minecraft.ttf */,
+				EB689B551C57A12600BA8199 /* bite.wav */,
+				EB689B5D1C57A12F00BA8199 /* cave-music.mp3 */,
+				EB689B561C57A12600BA8199 /* death.wav */,
+				EB689B571C57A12600BA8199 /* heart.wav */,
+				EB689B581C57A12600BA8199 /* skull.wav */,
+				EB689B291C57055100BA8199 /* DragImg.swift */,
+				EB689B171C56EE4900BA8199 /* AppDelegate.swift */,
+				EB689B191C56EE4900BA8199 /* ViewController.swift */,
+				EB689B1B1C56EE4900BA8199 /* Main.storyboard */,
+				EB689B1E1C56EE4900BA8199 /* Assets.xcassets */,
+				EB689B201C56EE4900BA8199 /* LaunchScreen.storyboard */,
+				EB689B231C56EE4900BA8199 /* Info.plist */,
+				EB689B531C57668F00BA8199 /* MonsterImg.swift */,
+			);
+			path = "my-monster";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB689B131C56EE4900BA8199 /* my-monster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB689B261C56EE4900BA8199 /* Build configuration list for PBXNativeTarget "my-monster" */;
+			buildPhases = (
+				EB689B101C56EE4900BA8199 /* Sources */,
+				EB689B111C56EE4900BA8199 /* Frameworks */,
+				EB689B121C56EE4900BA8199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "my-monster";
+			productName = "my-monster";
+			productReference = EB689B141C56EE4900BA8199 /* my-monster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB689B0C1C56EE4900BA8199 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mengying Feng";
+				TargetAttributes = {
+					EB689B131C56EE4900BA8199 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EB689B0F1C56EE4900BA8199 /* Build configuration list for PBXProject "my-monster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB689B0B1C56EE4900BA8199;
+			productRefGroup = EB689B151C56EE4900BA8199 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB689B131C56EE4900BA8199 /* my-monster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB689B121C56EE4900BA8199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB689B5A1C57A12600BA8199 /* death.wav in Resources */,
+				EB689B5E1C57A12F00BA8199 /* cave-music.mp3 in Resources */,
+				EB689B5B1C57A12600BA8199 /* heart.wav in Resources */,
+				EB3925D71C5832CD00F67709 /* Minecraft.ttf in Resources */,
+				EB689B5C1C57A12600BA8199 /* skull.wav in Resources */,
+				EB689B591C57A12600BA8199 /* bite.wav in Resources */,
+				EB689B221C56EE4900BA8199 /* LaunchScreen.storyboard in Resources */,
+				EB689B1F1C56EE4900BA8199 /* Assets.xcassets in Resources */,
+				EB689B1D1C56EE4900BA8199 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB689B101C56EE4900BA8199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB689B541C57668F00BA8199 /* MonsterImg.swift in Sources */,
+				EB689B2A1C57055100BA8199 /* DragImg.swift in Sources */,
+				EB689B1A1C56EE4900BA8199 /* ViewController.swift in Sources */,
+				EB689B181C56EE4900BA8199 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB689B1B1C56EE4900BA8199 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB689B1C1C56EE4900BA8199 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB689B201C56EE4900BA8199 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB689B211C56EE4900BA8199 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB689B241C56EE4900BA8199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB689B251C56EE4900BA8199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB689B271C56EE4900BA8199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "my-monster/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emilyvon.my-monster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB689B281C56EE4900BA8199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "my-monster/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emilyvon.my-monster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB689B0F1C56EE4900BA8199 /* Build configuration list for PBXProject "my-monster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB689B241C56EE4900BA8199 /* Debug */,
+				EB689B251C56EE4900BA8199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB689B261C56EE4900BA8199 /* Build configuration list for PBXNativeTarget "my-monster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB689B271C56EE4900BA8199 /* Debug */,
+				EB689B281C56EE4900BA8199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB689B0C1C56EE4900BA8199 /* Project object */;
+}
